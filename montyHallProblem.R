@@ -18,7 +18,7 @@ monty <- function(change) {
 sum = 1000
 data = data.frame(NotChange=0, Change=0, Max=0)
 plot(0, 0, xlim=c(0, sum), ylim=c(0,sum),
-     xlab="サンプル数", ylab="正解数", cex=0)
+     xlab="Sample", ylab="Correct Answers", cex=0)
 cols <- c("red", "blue", "green")
 labels <- colnames(data)
 legend("topleft", legend=labels, col=cols, pch=16)
